@@ -156,8 +156,9 @@ body {
   transition: opacity 0.3s ease;
 }
 
-.timeline-card:hover .card-overlay {
-  opacity: 1;
+.timeline-card:hover .card-overlay,
+.timeline-card.active .card-overlay {
+    opacity: 1;
 }
 
 .card-overlay p {
